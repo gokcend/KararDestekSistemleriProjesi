@@ -1,0 +1,134 @@
+body{
+	font-family: 'Graphik' ,Helvetica;
+	height:2380px;
+	display:flex;
+	background:#a8aeb8;
+	margin:0px;
+}
+.sidebar{
+	width:20%;
+	background-color:#8181ff;
+	display:flex;
+	flex-direction:column;
+}
+.sidebar .sidebarTop{
+	width:100%;
+	height:50px;
+	background-color:#c0bcff;
+	color:black;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-size:25px;
+}
+.content{
+	flex:1;
+	background-color:#ecf0f5;
+}
+.sidebar .info .avatar{
+	width:50px;
+	height:50px;
+	border-radius:10px;
+	margin:10px;
+}
+.sidebar .info{
+	display:flex;
+	height:100px;
+	width:100%;
+}
+.sidebar .info .infoName{
+	padding:30px;
+	color:#fff;
+	font-size:20px;
+}
+.sidebar .mainNav{
+  width:100%;
+  height:40px;
+  color:#222d32;
+  font-size:10px;
+  display:flex;
+  align-items:center;
+  padding-left:15px;
+}
+.sidebar .dash{
+  width:100%;
+  height:75px;
+  color:#000000;
+  padding:20px;
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  font-size:20px;
+}
+.fa-angle-right{
+  position:absolute;
+  padding-left:100px;
+  color:#000000;
+}
+.sidebar .graf{
+  width:100%;
+  height:75px;
+  color:#000000;
+  padding:20px;
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  font-size:20px;
+}
+.sidebar .graf .fa-angle-right{
+  position:absolute;
+  padding-left:120px;
+  color:#000000;
+}
+.diziler {
+	width:100%;
+	height:75px;
+  color:#000000;
+  background-color:#8181ff;
+  border: none;
+  cursor: pointer;
+  padding:20px;
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  font-size:20px;
+  padding-right:160px;
+}
+.diziler:hover {
+	background-color:#8181ff;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-child {
+  display: none;
+  background-color:#8181ff;
+  min-width: 200px;
+}
+.dropdown-child a {
+  color:#000000;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-child h5 {
+  color:white;
+  padding-left:20px;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+.content .header{
+	width:100%;
+	height:50px;
+	background:#c0bcff;
+	display:flex;
+	align-items:center;
+	padding-left:20px;
+	box-sizing:border-box;
+	justify-content:space-between;
+}

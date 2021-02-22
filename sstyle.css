@@ -1,0 +1,51 @@
+body{
+	font-family: 'Graphik' ,Helvetica;
+	height:1024px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	background:#a8aeb8;
+}
+.adminLabel{
+	font-size:30px;
+	
+}
+.girisEkrani{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	background-color:white;
+	width:400px;
+	display:flex;
+	flex-direction:column;
+	padding-top:20px;
+	padding-bottom:50px;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:30px;
+}
+#eposta{
+	margin-top:30px;
+	width:80%;
+	height:25px;
+}
+#sifre{
+	margin-top:30px;
+	width:80%;
+	height:25px;
+}
+#giris{
+	margin-top:30px;
+	width:30%;
+	height:30px;
+	background-color:#a8aeb8;
+	color:black;
+	border:0;
+	margin-bottom:15px;
+	border-radius:20px;
+}
+.girisYazi{
+	margin-top:15px;
+}
